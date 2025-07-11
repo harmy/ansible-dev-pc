@@ -65,6 +65,8 @@
         - unzip
         - uuid
         - xclip
+        - vim
+        - tmux
 
     - name: "Install exfatprogs"
       become: yes

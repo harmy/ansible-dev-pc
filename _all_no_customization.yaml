@@ -27,9 +27,6 @@
 # Docker
 - import_playbook: docker/core.yaml
 
-# .NET
-- import_playbook: dotnet/core.yaml
-
 # Flameshot
 - import_playbook: flameshot/core.yaml
 
@@ -42,20 +39,11 @@
 # Virtualization (QEMU/KVM)
 - import_playbook: virtualization/core.yaml
 
-# Mono (.NET Framework)
-- import_playbook: mono/core.yaml
-
 # NodeJS
 - import_playbook: nodejs/core.yaml
 
-# PowerShell Core
-- import_playbook: powershell-core/core.yaml
-
 # Python
 - import_playbook: python/core.yaml
-
-# Ruby
-- import_playbook: ruby/core.yaml
 
 # rust-lang
 - import_playbook: rust-lang/core.yaml
@@ -74,16 +62,6 @@
 # RDP/X/VNC/SSH client
 - import_playbook: remmina/core.yaml
 
-# Slack desktop application
-- import_playbook: slack/core.yaml
-
 # VideoLan Client (primarily for codecs)
 - import_playbook: vlc/core.yaml
 
-##### Applications (commercial license required)
-
-# Beyond Compare 4
-- import_playbook: bc4/core.yaml
-
-# Google Backup and Sync (compatible; using Insync on Linux)
-- import_playbook: google-backup/core.yaml
